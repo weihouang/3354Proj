@@ -71,13 +71,10 @@ const AddFish = ({ addFishToPond }) => {
               />
             </FormControl>
 
-            <Box display={"flex"} justifyContent={"space-between"} mt={"0.3em"}>
-              <Button colorScheme="red" onClick={close}>
-                Cancel
-              </Button>
+            <Box display={"flex"} justifyContent={"end"} mt={"0.3em"}>
               <ButtonGroup>
-                <Button mr={"0.5em"} colorScheme="blue" onClick={onClose}>
-                  Save
+                <Button colorScheme="red" onClick={close}>
+                  Cancel
                 </Button>
                 <Button colorScheme="blue" onClick={onSubmit}>
                   Add a fish
